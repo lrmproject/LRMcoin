@@ -1,0 +1,26 @@
+# /etc/conf.d/lrmcoind: config file for /etc/init.d/lrmcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/lrmcoin/lrmcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/lrmcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/lrmcoind.pid"
+
+# Where to write lrmcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/lrmcoind"
+
+# User and group to own lrmcoind process
+#BITCOIND_USER="lrmcoin"
+#BITCOIND_GROUP="lrmcoin"
+
+# Path to lrmcoind executable
+#BITCOIND_BIN="/usr/bin/lrmcoind"
+
+# Nice value to run lrmcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

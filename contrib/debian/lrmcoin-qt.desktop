@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LRMcoin
+Comment=LRMcoin P2P Cryptocurrency
+Comment[fr]=LRMcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=LRMcoin, eşten eşe kriptografik sanal para birimi
+Exec=lrmcoin-qt %u
+Terminal=false
+Type=Application
+Icon=lrmcoin128
+MimeType=x-scheme-handler/lrmcoin;
+Categories=Office;Finance;
